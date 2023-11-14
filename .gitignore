@@ -1,4 +1,5 @@
 *.iml
+.idea/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -150,4 +151,3 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
-
