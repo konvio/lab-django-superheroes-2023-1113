@@ -4,4 +4,8 @@ repos:
     hooks:
       - id: poetry-export
         args: [ '-o', 'requirements.txt', '--without-hashes' ]
-        verbose: true
+        always_run: true
+      - id: poetry-export
+        args: [ '-o', 'requirements-dev.txt', '--with=dev' , '--without-hashes' ]
+        files: poetry.lock
+        always_run: true
