@@ -3,5 +3,5 @@ repos:
     rev: '1.7.0'
     hooks:
       - id: poetry-export
-        args: [ '-f', 'requirements.txt', '--without-hashes' ]
+        args: [ '-o', 'requirements.txt', '--without-hashes' ]
         verbose: true
