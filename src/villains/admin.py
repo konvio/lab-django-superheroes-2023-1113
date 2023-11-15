@@ -1,5 +1,5 @@
 from django.contrib import admin
-from src.villains.models import Villain
+from .models import Villain
 
 
 @admin.register(Villain)

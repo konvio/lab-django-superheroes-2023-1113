@@ -1,4 +1,4 @@
-from src.villains.models import Villain
+from .models import Villain
 from rest_framework import viewsets, serializers
 
 

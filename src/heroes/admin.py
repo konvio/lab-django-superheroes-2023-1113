@@ -1,5 +1,5 @@
 from django.contrib import admin
-from src.heroes.models import Hero
+from .models import Hero
 
 
 @admin.register(Hero)

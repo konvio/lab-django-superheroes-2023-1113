@@ -21,4 +21,5 @@ jobs:
         pip install -r requirements-dev.txt
     - name: Check Django Configuration
       run: |
-        python manage.py check
+        python ./src/manage.py check
+        python ./src/manage.py makemigrations --dry-run --check

@@ -1,6 +1,6 @@
 from rest_framework import viewsets, serializers
 
-from src.heroes.models import Hero
+from .models import Hero
 
 
 class HeroViewSet(viewsets.ModelViewSet):
