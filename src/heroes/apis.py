@@ -4,10 +4,10 @@ from .models import Hero
 
 
 class HeroViewSet(viewsets.ModelViewSet):
-    class Serializer(serializers.ModelSerializer):
+    class HeroSerializer(serializers.ModelSerializer):
         class Meta:
             model = Hero
             fields = "__all__"
 
     queryset = Hero.objects.all()
-    serializer_class = Serializer
+    serializer_class = HeroSerializer
