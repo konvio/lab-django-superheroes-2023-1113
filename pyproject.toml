@@ -6,7 +6,7 @@ authors = ["Vitaliy Kononenko <konvio@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 django = "^4.2.7"
 djangorestframework = "^3.14.0"
 gunicorn = "^21.2.0"
